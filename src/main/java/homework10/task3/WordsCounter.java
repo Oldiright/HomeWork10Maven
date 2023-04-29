@@ -8,7 +8,7 @@ public class WordsCounter {
 
     public static String getStatistic(File file) throws IOException {
         String rawText = getTextFromFile(file).strip();
-        String[] rawWordsArray = rawText.split("[\\s]{1,}");
+        String[] rawWordsArray = rawText.split("\\s+");
         Map<String, Integer> resultMap = new HashMap<>();
 
         for(String word: rawWordsArray) {
@@ -21,9 +21,9 @@ public class WordsCounter {
         }
         Set<Map.Entry<String, Integer>> entrySet = resultMap.entrySet();
         List<Map.Entry<String, Integer>> list = new ArrayList<>(entrySet);
-        System.out.println(list);
 
-        Collections.sort(list, (o1, o2) -> o2.getValue().compareTo(o1.getValue()));
+
+        list.sort((o1, o2) -> o2.getValue().compareTo(o1.getValue()));
         StringBuilder result = new StringBuilder();
         for(int i = 0; i < list.size(); i++) {
             if(i == list.size() - 1) {
