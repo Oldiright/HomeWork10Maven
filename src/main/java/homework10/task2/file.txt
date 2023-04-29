@@ -1,0 +1,6 @@
+name age
+Sveta 21
+Diana 19
+Sara 25
+Anna 18
+Elizabet 28

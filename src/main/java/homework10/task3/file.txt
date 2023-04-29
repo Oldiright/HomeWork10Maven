@@ -1,0 +1,11 @@
+java is a high  level class based object     oriented programming language that is designed to have as few implementation dependencies as possible it is a general   purpose programming language     intended to let programmers write once    run anywher  meaning that compiled java code can run on all platforms that support java without the need to recompile    java applications are typically compiled to bytecode that can run on any java virtual machine  regardless of the underlying computer architecture  
+the syntax of java is similar to c and cplusplus but has fewer low level facilities than either of them
+the java runtime provides                                                  dynamic capabilities such as reflection and runtime code modification that are typically not available in traditional compiled languages
+as of 
+in two thousand and nineteen  java was one of the most popular programming languages in use according to github particularly for client    server web applications with a reported nine million developers
+java was originally developed by james gosling at sun microsystems
+it was released in may  one thousand nine hundred and ninety five as a core component of sun microsystems  java platform
+the original and reference implementation java compilers     virtual machines      and class libraries were originally released by sun under proprietary licenses
+as of may two thousand and seven in compliance with the specifications of the java community process  sun                       had relicensed most of its java technologies under the gpl two only license 
+oracle offers its own hotspot java virtual machine             however the official reference implementation is the openjdk jvm which is free open   source software and used by most                           developers and is the default jvm for almost all linux distributions
+as of march two thousand and twenty three, java twenty  is the                                                                 latest version while java seventeen eleven and eight are the current long term support  versions
